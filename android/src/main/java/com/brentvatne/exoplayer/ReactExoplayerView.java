@@ -2040,9 +2040,10 @@ class ReactExoplayerView extends FrameLayout implements
         exoPlayerView.setSubtitleStyle(style);
     }
 
-    public void setShutterColor(Integer color) {
-        exoPlayerView.setShutterColor(color);
-    }
+// TODO: Fix, thows Invalid symbol error
+//    public void setShutterColor(Integer color) {
+//        exoPlayerView.setShutterColor(color);
+//    }
 
     @Override
     public void onAdEvent(AdEvent adEvent) {
